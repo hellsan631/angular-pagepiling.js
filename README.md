@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/hellsan631/angular-pagepiling.js/badges/gpa.svg)](https://codeclimate.com/github/hellsan631/angular-pagepiling.js)
 [![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
+### Beta 0.1.0
 
 A simple [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js) directive that allows
 the use of pagePiling.js within an angular app. There are several issues when using the the vanilla jquery
@@ -28,7 +29,7 @@ npm install --save angular-pagepiling.js
 
 ====
 
-Make sure to include both this directive and fullPage.js. This package isn't a replacement.
+Make sure to include both this directive and pagePiling.js. This package isn't a replacement.
 
 _index.html_
 ```html
@@ -67,7 +68,7 @@ _someView.html_
 
 ### Options
 
-If you'd like to add some options to the fullpage, just include them in an object in your controller, and add the options attribute to your html.
+If you'd like to add some options to the pagePiling, just include them in an object in your controller, and add the options attribute to your html.
 
 _someView.html_
 ```js

@@ -5,38 +5,30 @@
 	<li data-menuanchor="4thpage"><a>Fourth slide</a></li>
 </ul>
 
-<div full-page options="vm.mainOptions">
-  <div class="section " id="section0">
+<div page-piling options="vm.mainOptions">
+  <div class="section">
 		<h1>fullPage.js</h1>
 		<p>Create Beautiful Fullscreen Scrolling Websites</p>
 		<img src="images/fullPage.png" alt="fullPage" />
 	</div>
-	<div class="section active" id="section1">
-	    <div class="slide">
-				<div class="intro">
-					<h1>Create Sliders</h1>
-					<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
-					<img src="images/slider.png" alt="slider" /> <br/>
-					<button ng-click="vm.addSlide();">Click Me to Add another Slide!</button>
-				</div>
-			</div>
-
-    <div ng-repeat="slide in vm.slides" class="slide">
+	<div class="section">
+    <div class="slide">
 			<div class="intro">
-				<img ng-src="{{ slide.src }}" alt="simple" />
-				<h1>{{ slide.title }}</h1>
-				<p>{{ slide.description }}</p>
+				<h1>Create Sliders</h1>
+				<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
+				<img src="images/slider.png" alt="slider" /> <br/>
+				<button ng-click="vm.addSlide();">Click Me to Add another Slide!</button>
 			</div>
 		</div>
 	</div>
-	<div class="section" id="section2">
+	<div class="section">
 		<div class="intro">
 			<h1>Example</h1>
 			<p>HTML markup example to define 4 sections.</p>
 			<img src="images/example2.png" alt="example" />
 		</div>
 	</div>
-	<div class="section" id="section3">
+	<div class="section">
 		<div class="intro">
 			<h1>Working On Tablets</h1>
 			<p>
