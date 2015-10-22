@@ -1,7 +1,7 @@
 {
   "name": "angular-pagepiling.js",
   "description": "A simple angular directive for pagePiling.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "angular-fullpage.js",
   "repository": {
     "type": "git",

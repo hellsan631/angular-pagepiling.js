@@ -49,9 +49,7 @@
         options.afterRender = function(){
           //We want to remove the HREF targets for navigation because they use hashbang
           //They still work without the hash though, so its all good.
-          if (options && options.navigation) {
-            $('#pp-nav').find('a').removeAttr('href');
-          }
+          $('#pp-nav').find('a').removeAttr('href');
         };
 
         //if we are using a ui-router, we need to be able to handle anchor clicks without 'href="#thing"'
@@ -61,10 +59,6 @@
 
         return options;
       }
-
-      var watchNodes = function() {
-        return element[0].getElementsByTagName('*').length;
-      };
 
       element.on('$destroy', destroyFullPage);
     }

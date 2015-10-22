@@ -12,6 +12,7 @@
     $rootScope.changePage = changePage;
 
     function changePage(){
+      console.log('sate');
       $state.go($rootScope.chosenPage);
     }
 
