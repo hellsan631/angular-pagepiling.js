@@ -1,0 +1,43 @@
+{
+  "name": "angular-pagepiling.js",
+  "version": "0.1.0",
+  "homepage": "http://hellsan631.github.io/angular-pagepiling.js/",
+  "authors": [
+    "Mathew Kleppin <mathew.kleppin@gmail.com>"
+  ],
+  "description": "A simple angular directive for pagePiling.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hellsan631/angular-pagepiling.js.git"
+  },
+  "main": [
+    "angular-pagepiling.js",
+    "angular-pagepiling.min.js"
+  ],
+  "ignore": [
+    ".jshintrc",
+    ".editorconfig",
+    ".sass-cache",
+    "npm-debug.log",
+    "sample",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4"
+  },
+  "keywords": [
+    "fullpage",
+    "angular",
+    "directive",
+    "jquery",
+    "scrolling",
+    "single_page",
+    "one_page",
+    "sliding"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "angular-ui-router": "~0.2.15"
+  }
+}
