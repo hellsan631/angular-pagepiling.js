@@ -1,6 +1,8 @@
 [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js) Angular Directive
 ====
 
+## Enhanced by [BrowserStack](http://browserstack.com/)
+
 [![Code Climate](https://codeclimate.com/github/hellsan631/angular-pagepiling.js/badges/gpa.svg)](https://codeclimate.com/github/hellsan631/angular-pagepiling.js)
 [![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
